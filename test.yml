@@ -1,0 +1,8 @@
+---
+
+- name: this is test file
+  hosts: webservers
+  tasks:
+    - name: print message
+      debug:
+        msg: "Hello from google shell"
